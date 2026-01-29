@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Andreea",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,35 +22,35 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Ma Iubesti?",                                    // First interaction
+            yesBtn: "Daaa",                                             // Text for "Yes" button
+            noBtn: "Nu.",                                               // Text for "No" button
+            secretAnswer: "Nu imi place de tine., Te iubeeescccc!!! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            text: "Cat de mult ma iubesti?",                          // For the love meter
+            startText: "Atat de mult!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
+            yesBtn: "Daaaa!",                                             // Text for "Yes" button
+            noBtn: "Nu."                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW Asa de tare ma iubeeestiii?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "Te iubescccc pana la cer si inapoi! 🚀💝",              // Shows when they go past 1000%
+        normal: "TOATA VIATAAA! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: "Yay! Sunt cel mai norocos iubittt din lumeee! 🎉💝💖💝💓",
+        message: "Acummm marelee cadouuuu, o imbratisare calda din parteaa lui bituuu si un infinitt de pupiciii bineinteles!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dxb1tgrqn/video/upload/v1769700598/Stephen_Sanchez_-_Until_I_Found_You_Official_Video_sdmgb7.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
